@@ -31,7 +31,7 @@
                 <div class = "placeinfo">
                     <strong>Center Name and ID: </strong> ${data.sessions[i].name}, ${data.sessions[i].center_id} <br>
                     <strong>Address: </strong>${data.sessions[i].address} <br>
-                    <strong>Slots Available: </strong> ${data.sessions[i].available_capacity} <br>
+                    <strong>Vaccines Available: </strong> ${data.sessions[i].available_capacity} <br>
                     <strong>Minimum Age: </strong>${data.sessions[i].min_age_limit} <br>
                     <strong>Vaccine Available: </strong>${data.sessions[i].vaccine} <br>
                     <strong>Fee: </strong> ₹${data.sessions[i].fee} <br>
